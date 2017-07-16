@@ -12,7 +12,7 @@
 <body>
     <header class="jumbotron">
         <h1 class="title text-center">Crystals Collector</h1>
-        <p class="description text-center">The point to this game is to try and match Your Score to the Random Number. Each crystal contains a different hidden number, when clicked this number will be added to your score. If you match your score with the Random Number, you win. If your score exceeds the Random Number, you lose.</p>
+        <p class="description text-center">The point to this game is to try and match Your Score to the Random Number. Each crystal contains a different hidden number, when clicked this number will be added to your score. If you match your score with the Random Number, you win. If your score exceeds the Random Number, you lose.  Click "Play Again" to reset the game but keep your score, click "Reset Game" to reset the whole game.</p>
         <h2 class="text-center">Click Any Crystal to Start</h2>
     </header>
     <div class="container">
@@ -31,8 +31,12 @@
                 <h3>Losses: <span id="numlosses"></span></h3>
             </div>
             <div class="col-xs-6 col-md-3 thumbnail btn-group">
-                <button class ="btn-primary" id="play_again">Play Again</button>
-                <button class ="btn-danger" id="reset_game">Reset Game</button>
+                <div class="row">
+                <button class ="btn btn-primary" id="play_again"><h4>Play Again</h4></button>
+                </div>
+                <div class="row">
+                <button class ="btn btn-danger" id="reset_game"><h4>Reset Game</h4></button>
+                </div>
             </div>
         </div>
         <div class="row">
