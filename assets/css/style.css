@@ -29,6 +29,16 @@ body {
 	margin: 5px;
 }
 
+#play_again {
+	background-color: rgba(51,122,183,0.85);
+	border: none;
+}
+
+#reset_game {
+	background-color: rgba(201,48,44,0.85);
+	border: none;
+}
+
 
 
 
