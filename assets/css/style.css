@@ -1,44 +1,39 @@
 body {
-	background: url(../images/Crystal-Background.jpg) no-repeat center fixed;
-	background-size: cover;
-
-	}
-
-.jumbotron{
-	background-color: rgba(238,238,238,0.7);
-	padding-top: 5px;
+    background: url(../images/Crystal-Background.jpg) no-repeat center fixed;
+    background-size: cover;
 }
 
-.thumbnail{
-	width:230px;
-	height: 150px;
-	text-align: center;
-	background-color:rgba(238,238,238,0.7);
-	margin:10px; 
+.jumbotron {
+    background-color: rgba(238, 238, 238, 0.7);
+    padding-top: 5px;
 }
 
-.btn-group{
-	width: 200px;
-	background: none;
-	border: none;
+.thumbnail {
+    width: 230px;
+    height: 150px;
+    text-align: center;
+    background-color: rgba(238, 238, 238, 0.7);
+    margin: 10px;
+}
+
+.btn-group {
+    width: 200px;
+    background: none;
+    border: none;
 }
 
 .btn-group button {
-	width: 80%;
-	padding: 10px;
-	margin: 5px;
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
 }
 
 #play_again {
-	background-color: rgba(51,122,183,0.85);
-	border: none;
+    background-color: rgba(51, 122, 183, 0.85);
+    border: none;
 }
 
 #reset_game {
-	background-color: rgba(201,48,44,0.85);
-	border: none;
+    background-color: rgba(201, 48, 44, 0.85);
+    border: none;
 }
-
-
-
-
